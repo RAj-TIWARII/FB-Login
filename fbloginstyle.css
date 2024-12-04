@@ -18,6 +18,7 @@ html,body{
 }
 
 #fbloginsec{
+  max-width: 100%;
   width: 50%;
   height: 100%;  
   float: left;
@@ -29,7 +30,6 @@ html,body{
 	margin-top: 34%;
 	margin-left: 30%;
 	background-color: #ededed;
-	
 	vertical-align: center;
 }
 
@@ -38,7 +38,7 @@ html,body{
 }
 
 #fbimg p{
-	font-size: 25}
+	font-size: 25px}
 
 #fbloginsec{
 	background-color: #ededed;
@@ -98,4 +98,19 @@ html,body{
 	text-align: center;
 	border: 2px #31ad52;
 	font-size: 15px;
+}
+
+@media (max-width: 600px){
+	#fbimg, #fbloginsec, #fbloginimg {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-width: 600px){
+	#fbloginimg, #fbimg  {
+   
+   margin-top: 0%;
+   margin-left: 0%;
+   text-align: center;
+  }
 }
